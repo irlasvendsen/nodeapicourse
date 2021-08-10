@@ -1,0 +1,23 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "node course",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start_local": "nodemon -r dotenv/config server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "jwt-simple": "^0.5.6",
+    "mysql-await": "^2.1.8",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
